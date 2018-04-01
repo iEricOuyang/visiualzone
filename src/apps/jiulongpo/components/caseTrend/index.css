@@ -1,0 +1,36 @@
+.case-trend{
+    position: absolute;
+    left: 64px;
+    top: 1390px;
+    width: 545px;
+    height: 420px;
+    .top10-title{
+        width: 100%;
+        height: 80px;
+        color: #fff;
+        font-size: 38px;
+        text-indent: 106px;
+        background: url(./images/trend-title.png) 0 0/ 100% 100% no-repeat;
+    }
+    .axis-y path, .axis-y line{
+        stroke-width: 0
+    }
+    .trend{
+        margin-left: 45px;
+        background: url(./images/bg.png) 0 0/ 100% 100% no-repeat;
+        .axis-x text {
+            fill: #9fbdb8;
+        }
+        .axis-y text {
+            fill: #fff;
+        }
+    }
+    .unit {
+        position: absolute;
+        top: 80px;
+        left: -15px;
+        font-size: 24px;
+        color: #fff;
+        line-height: 35px;
+    }
+}

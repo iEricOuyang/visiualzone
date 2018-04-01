@@ -1,0 +1,34 @@
+.time{
+    position: absolute;
+    right: 60px;
+    top: 66px;
+    width: 300px;
+    height: 90px;
+    background: url(./images/time-bg.png) no-repeat 0 0/100% 100%;
+    .date{
+        display: inline-block;
+        margin-left: 5px;
+        color: #9fbdb8;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .weekday{
+        float:left;
+        padding: 0px 10px;
+        margin-right: 10px;
+        height: 60px;
+        line-height: 60px;
+        background: #9fbdb8;
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .real-time{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        color: #78d4ff;
+        font-size: 46px;
+        font-weight: 900;
+    }
+}

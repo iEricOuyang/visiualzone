@@ -1,0 +1,7 @@
+.case-pies{
+    display: inline-block;
+    -webkit-transform: translate(64px, 274px);
+        -ms-transform: translate(64px, 274px);
+         -o-transform: translate(64px, 274px);
+            transform: translate(64px, 274px);
+}

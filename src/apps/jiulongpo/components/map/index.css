@@ -1,0 +1,21 @@
+.map {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    transform-origin: 50% 50%;
+    transform: rotateX(40deg) ;
+    .map-bg {
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    svg{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .sub-map{
+        z-index: -1;
+    }
+}

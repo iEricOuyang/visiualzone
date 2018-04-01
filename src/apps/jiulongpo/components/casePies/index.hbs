@@ -1,0 +1,13 @@
+<div class="case-pies">
+    <svg height={{height}} width={{width}}>
+        <defs>
+            <filter id="shadow">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"/>
+                <feMerge>
+                    <feMergeNode id="blur"></feMergeNode>
+                    <feMergeNode id="SourceGraphic"></feMergeNode>
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
+</div>

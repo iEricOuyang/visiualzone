@@ -1,0 +1,16 @@
+.case-pies{
+    .name{
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        line-height: 45px;
+        /* font-weight: 600; */
+    }
+    .value{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        line-height: 45px;
+        color: #fff;
+    }
+}

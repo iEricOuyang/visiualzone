@@ -1,0 +1,82 @@
+.drop-menu {
+  z-index: 30;
+  box-sizing: border-box;
+  overflow: auto;
+  position: absolute;
+  padding: 50px;
+  top: 200px;
+  left: 64px;
+  width: 550px;
+  max-height: 1500px;
+  background: url(./images/bg.png) no-repeat 0 0/100% 100%;
+  .active {
+    color: #fff;
+  }
+  li {
+    position: relative;
+    list-style: none;
+    margin-left: 60px;
+    font-size: 32px;
+    color: #9fbdb8;
+    line-height: 60px;
+    letter-spacing: 5px;
+    span {
+      margin-right: 50px;
+      cursor: pointer;
+      padding-left: 50px;
+      white-space:nowrap;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: -30px;
+      left: -60px;
+      height: 100%;
+      border-left: 3px dotted #76cef8;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: -60px;
+      width: 60px;
+      border-top: 3px dotted #76cef8;
+    }
+  }
+  li[data-mark="0"] {
+    &:after {
+      width: 84px;
+    }
+  }
+  li[data-mark="1"] {
+    > span {
+      &:before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        height: 24px;
+        width: 24px;
+        background: url(./images/plus.png) no-repeat 0 0/100% 100%;
+      }
+    }
+    > .expended {
+      &:before {
+        background: url(./images/minus.png) no-repeat 0 0/100% 100%;
+      }
+    }
+  }
+  .unexpended {
+    &:before {
+      height: 60px;
+    }
+  }
+}
+.drop-menu::-webkit-scrollbar {
+  width: 0px;
+  height: 20px;
+}
+.drop-menu::-webkit-scrollbar-thumb {
+  background: #0b71c0;
+  border-radius: 10px;
+}

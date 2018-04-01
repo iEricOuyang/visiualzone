@@ -1,0 +1,42 @@
+
+.map{
+    .name{
+        z-index: 1;
+        display: inline-block;
+        padding: 15px 10px;
+        /* background: rgba(255,255,255, 1); */
+        /* background: rgba(31, 40, 74, 0.8); */
+        font-family: 'Microsoft YaHei';
+        font-size: 32px;
+        /* font-weight: 600; */
+        fill: #e3c0fa;
+        margin-left: -50%;
+        pointer-events: none;
+    }
+    .data-g{
+        circle {
+            fill: none;
+            stroke: #e3c0fa;/*#e3c0fa;*/
+            stroke-width: 2;
+            pointer-events: none;
+        }
+        .c1 {
+            fill: #e3c0fa;
+            fill-opacity: 0.8;
+            stroke-width: 0;
+        }
+    }
+    .tooltip{
+        path {
+            pointer-events: none;
+        }
+        .value{
+            z-index: 2;
+            display: block;
+            font-size: 38px;
+            color: #fff;
+            cursor: pointer;
+            text-align: right;
+        }
+    }
+}

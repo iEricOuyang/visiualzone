@@ -1,0 +1,70 @@
+.case-top10{
+    position: absolute;
+    top: 505px;
+    left: 64px;
+    width: 545px;
+    height: 740px;
+    .top10-title{
+        width: 100%;
+        height: 80px;
+        color: #fff;
+        font-size: 38px;
+        text-indent: 106px;
+        background: url(./images/case-title.png) 0 0/ 100% 100% no-repeat;
+    }
+    .top10-list{
+        float: right;
+        box-sizing: border-box;
+        padding: 30px;
+        width: 487px;
+        background: url(./images/bg.png) 0 0/ 100% 100% no-repeat;
+        .terminal-item {
+            width: 100%;
+            height: 60px;
+            margin-top: 10px;
+            .context{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .name{
+                    font-size: 28px;
+                    color: #7c928e;
+                    font-weight: 800;
+                }
+                .value{
+                    font-size: 30px;
+                    color: #fff;
+                }
+            }
+            .back-bar{
+                position: relative;
+                width: 100%;
+                height: 5px;
+                background: #41425a;
+                .outer-bar{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 5px;
+                }
+                .real-bar{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 5px;
+                    width: 100%;
+                    background: linear-gradient(to right, #0f1ab1 0%, #54ffc6 100%)
+                }
+            }
+        }
+    }
+    .unit {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        font-size: 24px;
+        color: #fff;
+        line-height: 35px;
+    }
+}

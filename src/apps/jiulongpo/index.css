@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    position: relative;
+    height: 100%;
+    width:100%;
+    background: url(./images/bg.png) no-repeat 0 0/100% 100%;
+    #app {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    #sub-app{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .rotate-bg{
+        z-index: -10;
+        position: absolute;
+        top: 147px;
+        left: 1786px;
+        height: 720px;
+        width: 720px;
+        background: url(./images/rotate.png) no-repeat 0 0/100% 100%;
+        transform-origin: 50% 50%;
+        animation: rotate 12s linear infinite;
+    }
+}
+/*轴线*/
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #97b4af;
+  stroke-width: 2px;
+}
+
+.axis text {
+  font-size: 24px;
+  stroke: none;
+  fill: #8cffff;
+}
+
+@-webkit-keyframes rotate{
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
