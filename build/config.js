@@ -15,6 +15,6 @@ module.exports = {
   // 构建时使用的配置
   prod: {
     // dist文件夹对应的url地址
-    assetsPublicPath: '/'
+    assetsPublicPath: '../'
   }
 }
