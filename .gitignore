@@ -2,8 +2,6 @@
 logs
 *.log
 
-dist
-
 # Runtime data
 pids
 *.pid
@@ -29,7 +27,7 @@ build/Release
 node_modules
 
 # Debug log from npm
-npm-debug.log
+npm-debug.log*
 
 # sass
 .sass-cache/
