@@ -6,7 +6,7 @@ body{
     position: relative;
     height: 100%;
     width:100%;
-    background: url(/images/bg.png) no-repeat 0 0/100% 100%;
+    background: url(./images/bg.png) no-repeat 0 0/100% 100%;
     #app {
         position: absolute;
         top: 0;
@@ -31,7 +31,7 @@ body{
         left: 1786px;
         height: 720px;
         width: 720px;
-        background: url(/images/rotate.png) no-repeat 0 0/100% 100%;
+        background: url(./images/rotate.png) no-repeat 0 0/100% 100%;
         transform-origin: 50% 50%;
         animation: rotate 12s linear infinite;
     }
