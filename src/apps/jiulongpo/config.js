@@ -1,4 +1,4 @@
 export default {
-  title: '九龙坡区公安分局',
-  returnBtnText: '返回九龙坡区'
+  title: '重庆区县分局',
+  returnBtnText: '返回主页'
 } 
